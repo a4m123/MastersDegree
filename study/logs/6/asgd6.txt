@@ -1,0 +1,117 @@
+2023-12-12 20:33:31,104:CRITICAL:EmoV2_step40: iteration: 0: Loss: 0.513349, lr: 0.009000
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 19.469%
+   error per clips: mean=0.278, std=0.191
+Arousal:
+   accuracy per clips: 3.097%
+   error per clips: mean=0.514, std=0.318
+---------
+
+2023-12-12 20:33:34,850:CRITICAL:EmoV2_step40: validate. Iteration: 0: Accuracy (valence, arousal): 19.469% 3.097%
+2023-12-12 20:33:34,852:CRITICAL:EmoV2_step40: validate. Iteration: 0: Loss: 0.304012
+2023-12-12 20:33:38,107:CRITICAL:EmoV2_step40: iteration: 100: Loss: 0.069134, lr: 0.009000
+2023-12-12 20:33:41,535:CRITICAL:EmoV2_step40: iteration: 200: Loss: 0.083736, lr: 0.009000
+2023-12-12 20:33:44,961:CRITICAL:EmoV2_step40: iteration: 300: Loss: 0.083107, lr: 0.008999
+2023-12-12 20:33:48,397:CRITICAL:EmoV2_step40: iteration: 400: Loss: 0.321326, lr: 0.008999
+2023-12-12 20:33:51,813:CRITICAL:EmoV2_step40: iteration: 500: Loss: 0.132663, lr: 0.008998
+2023-12-12 20:33:55,029:CRITICAL:EmoV2_step40: iteration: 600: Loss: 0.180911, lr: 0.008997
+2023-12-12 20:33:58,368:CRITICAL:EmoV2_step40: iteration: 700: Loss: 0.126559, lr: 0.008996
+2023-12-12 20:34:01,699:CRITICAL:EmoV2_step40: iteration: 800: Loss: 0.189702, lr: 0.008994
+2023-12-12 20:34:05,149:CRITICAL:EmoV2_step40: iteration: 900: Loss: 0.113961, lr: 0.008993
+2023-12-12 20:34:08,368:CRITICAL:EmoV2_step40: iteration: 1000: Loss: 0.033765, lr: 0.008991
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 23.009%
+   error per clips: mean=0.203, std=0.143
+Arousal:
+   accuracy per clips: 18.142%
+   error per clips: mean=0.242, std=0.209
+---------
+
+2023-12-12 20:34:12,185:CRITICAL:EmoV2_step40: validate. Iteration: 1000: Accuracy (valence, arousal): 23.009% 18.142%
+2023-12-12 20:34:12,187:CRITICAL:EmoV2_step40: validate. Iteration: 1000: Loss: 0.109579
+2023-12-12 20:34:15,496:CRITICAL:EmoV2_step40: iteration: 1100: Loss: 0.117804, lr: 0.008989
+2023-12-12 20:34:18,783:CRITICAL:EmoV2_step40: iteration: 1200: Loss: 0.062839, lr: 0.008987
+2023-12-12 20:34:22,473:CRITICAL:EmoV2_step40: iteration: 1300: Loss: 0.063514, lr: 0.008985
+2023-12-12 20:34:25,897:CRITICAL:EmoV2_step40: iteration: 1400: Loss: 0.079961, lr: 0.008983
+2023-12-12 20:34:29,277:CRITICAL:EmoV2_step40: iteration: 1500: Loss: 0.102433, lr: 0.008980
+2023-12-12 20:34:32,680:CRITICAL:EmoV2_step40: iteration: 1600: Loss: 0.111752, lr: 0.008978
+2023-12-12 20:34:36,132:CRITICAL:EmoV2_step40: iteration: 1700: Loss: 0.044182, lr: 0.008975
+2023-12-12 20:34:39,571:CRITICAL:EmoV2_step40: iteration: 1800: Loss: 0.127237, lr: 0.008972
+2023-12-12 20:34:42,913:CRITICAL:EmoV2_step40: iteration: 1900: Loss: 0.162101, lr: 0.008968
+2023-12-12 20:34:46,273:CRITICAL:EmoV2_step40: iteration: 2000: Loss: 0.024079, lr: 0.008965
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 26.106%
+   error per clips: mean=0.214, std=0.143
+Arousal:
+   accuracy per clips: 22.124%
+   error per clips: mean=0.259, std=0.214
+---------
+
+2023-12-12 20:34:50,234:CRITICAL:EmoV2_step40: validate. Iteration: 2000: Accuracy (valence, arousal): 26.106% 22.124%
+2023-12-12 20:34:50,235:CRITICAL:EmoV2_step40: validate. Iteration: 2000: Loss: 0.112358
+2023-12-12 20:34:53,481:CRITICAL:EmoV2_step40: iteration: 2100: Loss: 0.351576, lr: 0.008961
+2023-12-12 20:34:56,691:CRITICAL:EmoV2_step40: iteration: 2200: Loss: 0.247576, lr: 0.008958
+2023-12-12 20:35:00,098:CRITICAL:EmoV2_step40: iteration: 2300: Loss: 0.073580, lr: 0.008954
+2023-12-12 20:35:03,346:CRITICAL:EmoV2_step40: iteration: 2400: Loss: 0.068184, lr: 0.008949
+2023-12-12 20:35:06,757:CRITICAL:EmoV2_step40: iteration: 2500: Loss: 0.108770, lr: 0.008945
+2023-12-12 20:35:10,128:CRITICAL:EmoV2_step40: iteration: 2600: Loss: 0.185007, lr: 0.008941
+2023-12-12 20:35:13,501:CRITICAL:EmoV2_step40: iteration: 2700: Loss: 0.242258, lr: 0.008936
+2023-12-12 20:35:16,984:CRITICAL:EmoV2_step40: iteration: 2800: Loss: 0.098497, lr: 0.008931
+2023-12-12 20:35:20,401:CRITICAL:EmoV2_step40: iteration: 2900: Loss: 0.111284, lr: 0.008926
+2023-12-12 20:35:23,831:CRITICAL:EmoV2_step40: iteration: 3000: Loss: 0.316665, lr: 0.008921
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 25.664%
+   error per clips: mean=0.216, std=0.140
+Arousal:
+   accuracy per clips: 20.796%
+   error per clips: mean=0.246, std=0.210
+---------
+
+2023-12-12 20:35:27,658:CRITICAL:EmoV2_step40: validate. Iteration: 3000: Accuracy (valence, arousal): 25.664% 20.796%
+2023-12-12 20:35:27,661:CRITICAL:EmoV2_step40: validate. Iteration: 3000: Loss: 0.109965
+2023-12-12 20:35:30,898:CRITICAL:EmoV2_step40: iteration: 3100: Loss: 0.208329, lr: 0.008916
+2023-12-12 20:35:34,311:CRITICAL:EmoV2_step40: iteration: 3200: Loss: 0.132840, lr: 0.008910
+2023-12-12 20:35:37,571:CRITICAL:EmoV2_step40: iteration: 3300: Loss: 0.058397, lr: 0.008905
+2023-12-12 20:35:41,049:CRITICAL:EmoV2_step40: iteration: 3400: Loss: 0.209862, lr: 0.008899
+2023-12-12 20:35:44,369:CRITICAL:EmoV2_step40: iteration: 3500: Loss: 0.069431, lr: 0.008893
+2023-12-12 20:35:47,701:CRITICAL:EmoV2_step40: iteration: 3600: Loss: 0.132593, lr: 0.008887
+2023-12-12 20:35:51,102:CRITICAL:EmoV2_step40: iteration: 3700: Loss: 0.036351, lr: 0.008880
+2023-12-12 20:35:54,495:CRITICAL:EmoV2_step40: iteration: 3800: Loss: 0.236689, lr: 0.008874
+2023-12-12 20:35:57,869:CRITICAL:EmoV2_step40: iteration: 3900: Loss: 0.039394, lr: 0.008867
+2023-12-12 20:36:01,178:CRITICAL:EmoV2_step40: iteration: 4000: Loss: 0.158128, lr: 0.008860
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 23.894%
+   error per clips: mean=0.176, std=0.124
+Arousal:
+   accuracy per clips: 19.469%
+   error per clips: mean=0.271, std=0.230
+---------
+
+2023-12-12 20:36:05,140:CRITICAL:EmoV2_step40: validate. Iteration: 4000: Accuracy (valence, arousal): 23.894% 19.469%
+2023-12-12 20:36:05,143:CRITICAL:EmoV2_step40: validate. Iteration: 4000: Loss: 0.112001
+2023-12-12 20:36:08,434:CRITICAL:EmoV2_step40: iteration: 4100: Loss: 0.209417, lr: 0.008853
+2023-12-12 20:36:11,770:CRITICAL:EmoV2_step40: iteration: 4200: Loss: 0.144240, lr: 0.008846
+2023-12-12 20:36:15,113:CRITICAL:EmoV2_step40: iteration: 4300: Loss: 0.084312, lr: 0.008838
+2023-12-12 20:36:18,433:CRITICAL:EmoV2_step40: iteration: 4400: Loss: 0.072120, lr: 0.008831
+2023-12-12 20:36:21,999:CRITICAL:EmoV2_step40: iteration: 4500: Loss: 0.046191, lr: 0.008823
+2023-12-12 20:36:25,317:CRITICAL:EmoV2_step40: iteration: 4600: Loss: 0.103106, lr: 0.008815
+2023-12-12 20:36:28,831:CRITICAL:EmoV2_step40: iteration: 4700: Loss: 0.130762, lr: 0.008807
+2023-12-12 20:36:32,135:CRITICAL:EmoV2_step40: iteration: 4800: Loss: 0.265868, lr: 0.008799
+2023-12-12 20:36:35,682:CRITICAL:EmoV2_step40: iteration: 4900: Loss: 0.223263, lr: 0.008791
+2023-12-12 20:36:38,929:CRITICAL:EmoV2_step40: iteration: 5000: Loss: 0.115832, lr: 0.008782
+targets = (226, 2), predict = (226, 2)
+Valence:
+   accuracy per clips: 24.779%
+   error per clips: mean=0.209, std=0.140
+Arousal:
+   accuracy per clips: 22.566%
+   error per clips: mean=0.260, std=0.213
+---------
+
+2023-12-12 20:36:42,896:CRITICAL:EmoV2_step40: validate. Iteration: 5000: Accuracy (valence, arousal): 24.779% 22.566%
+2023-12-12 20:36:42,897:CRITICAL:EmoV2_step40: validate. Iteration: 5000: Loss: 0.111813

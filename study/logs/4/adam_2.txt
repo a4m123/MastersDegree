@@ -1,0 +1,206 @@
+softmax_size = 2
+disk_reader_process_num: 1
+disk_reader_process_num: 1
+2023-12-11 20:37:48,610:CRITICAL:EmoV2_step40: iteration: 0: Loss: 0.163685, lr: 0.000900
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+C:\Users\artem\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\_stats_py.py:4427: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  warnings.warn(stats.ConstantInputWarning(msg))
+Valence:
+   accuracy per frames: 2.354%
+   error per frames: frames=0.436, std=0.217
+   concordance correlation coefficient per frames: nan
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 21.068%
+   error per frames: frames=0.318, std=0.217
+   concordance correlation coefficient per frames: nan
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 2.985%
+   error per clips: mean=0.442, std=0.212
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 21.891%
+   error per clips: mean=0.304, std=0.220
+---------
+
+2023-12-11 20:39:54,974:CRITICAL:EmoV2_step40: validate. Iteration: 0: Accuracy (valence, arousal): 2.985% 21.891%
+2023-12-11 20:39:54,975:CRITICAL:EmoV2_step40: validate. Iteration: 0: Loss: 0.251018
+2023-12-11 20:40:21,380:CRITICAL:EmoV2_step40: iteration: 100: Loss: 0.223109, lr: 0.000900
+2023-12-11 20:40:47,901:CRITICAL:EmoV2_step40: iteration: 200: Loss: 0.260772, lr: 0.000900
+2023-12-11 20:41:14,289:CRITICAL:EmoV2_step40: iteration: 300: Loss: 0.287321, lr: 0.000900
+2023-12-11 20:41:40,657:CRITICAL:EmoV2_step40: iteration: 400: Loss: 0.245679, lr: 0.000900
+2023-12-11 20:42:07,311:CRITICAL:EmoV2_step40: iteration: 500: Loss: 0.248996, lr: 0.000900
+2023-12-11 20:42:35,009:CRITICAL:EmoV2_step40: iteration: 600: Loss: 0.240535, lr: 0.000900
+2023-12-11 20:43:01,771:CRITICAL:EmoV2_step40: iteration: 700: Loss: 0.262605, lr: 0.000900
+2023-12-11 20:43:28,305:CRITICAL:EmoV2_step40: iteration: 800: Loss: 0.276365, lr: 0.000899
+2023-12-11 20:43:54,803:CRITICAL:EmoV2_step40: iteration: 900: Loss: 0.284398, lr: 0.000899
+2023-12-11 20:44:21,326:CRITICAL:EmoV2_step40: iteration: 1000: Loss: 0.253528, lr: 0.000899
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+Valence:
+   accuracy per frames: 2.354%
+   error per frames: frames=0.436, std=0.217
+   concordance correlation coefficient per frames: 0.000
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 21.068%
+   error per frames: frames=0.317, std=0.216
+   concordance correlation coefficient per frames: -0.000
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 2.985%
+   error per clips: mean=0.442, std=0.212
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 21.891%
+   error per clips: mean=0.304, std=0.220
+---------
+
+2023-12-11 20:46:29,149:CRITICAL:EmoV2_step40: validate. Iteration: 1000: Accuracy (valence, arousal): 2.985% 21.891%
+2023-12-11 20:46:29,150:CRITICAL:EmoV2_step40: validate. Iteration: 1000: Loss: 0.250890
+2023-12-11 20:46:55,581:CRITICAL:EmoV2_step40: iteration: 1100: Loss: 0.270952, lr: 0.000899
+2023-12-11 20:47:22,023:CRITICAL:EmoV2_step40: iteration: 1200: Loss: 0.220008, lr: 0.000899
+2023-12-11 20:47:48,466:CRITICAL:EmoV2_step40: iteration: 1300: Loss: 0.242240, lr: 0.000899
+2023-12-11 20:48:14,912:CRITICAL:EmoV2_step40: iteration: 1400: Loss: 0.278599, lr: 0.000898
+2023-12-11 20:48:41,318:CRITICAL:EmoV2_step40: iteration: 1500: Loss: 0.270652, lr: 0.000898
+2023-12-11 20:49:07,783:CRITICAL:EmoV2_step40: iteration: 1600: Loss: 0.294554, lr: 0.000898
+2023-12-11 20:49:34,253:CRITICAL:EmoV2_step40: iteration: 1700: Loss: 0.172003, lr: 0.000897
+2023-12-11 20:50:00,713:CRITICAL:EmoV2_step40: iteration: 1800: Loss: 0.160210, lr: 0.000897
+2023-12-11 20:50:27,177:CRITICAL:EmoV2_step40: iteration: 1900: Loss: 0.143661, lr: 0.000897
+2023-12-11 20:50:53,628:CRITICAL:EmoV2_step40: iteration: 2000: Loss: 0.110888, lr: 0.000896
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+Valence:
+   accuracy per frames: 20.413%
+   error per frames: frames=0.149, std=0.102
+   concordance correlation coefficient per frames: -0.051
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 15.934%
+   error per frames: frames=0.270, std=0.209
+   concordance correlation coefficient per frames: 0.039
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 22.886%
+   error per clips: mean=0.150, std=0.102
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 16.418%
+   error per clips: mean=0.300, std=0.246
+---------
+
+2023-12-11 20:53:01,126:CRITICAL:EmoV2_step40: validate. Iteration: 2000: Accuracy (valence, arousal): 22.886% 16.418%
+2023-12-11 20:53:01,127:CRITICAL:EmoV2_step40: validate. Iteration: 2000: Loss: 0.105533
+2023-12-11 20:53:27,544:CRITICAL:EmoV2_step40: iteration: 2100: Loss: 0.111290, lr: 0.000896
+2023-12-11 20:53:53,992:CRITICAL:EmoV2_step40: iteration: 2200: Loss: 0.147086, lr: 0.000896
+2023-12-11 20:54:20,446:CRITICAL:EmoV2_step40: iteration: 2300: Loss: 0.121605, lr: 0.000895
+2023-12-11 20:54:46,892:CRITICAL:EmoV2_step40: iteration: 2400: Loss: 0.134739, lr: 0.000895
+2023-12-11 20:55:13,311:CRITICAL:EmoV2_step40: iteration: 2500: Loss: 0.124120, lr: 0.000895
+2023-12-11 20:55:39,721:CRITICAL:EmoV2_step40: iteration: 2600: Loss: 0.107419, lr: 0.000894
+2023-12-11 20:56:06,116:CRITICAL:EmoV2_step40: iteration: 2700: Loss: 0.117422, lr: 0.000894
+2023-12-11 20:56:33,227:CRITICAL:EmoV2_step40: iteration: 2800: Loss: 0.104835, lr: 0.000893
+2023-12-11 20:56:59,659:CRITICAL:EmoV2_step40: iteration: 2900: Loss: 0.102664, lr: 0.000893
+2023-12-11 20:57:26,091:CRITICAL:EmoV2_step40: iteration: 3000: Loss: 0.109676, lr: 0.000892
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+Valence:
+   accuracy per frames: 24.011%
+   error per frames: frames=0.244, std=0.144
+   concordance correlation coefficient per frames: 0.002
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 19.890%
+   error per frames: frames=0.230, std=0.177
+   concordance correlation coefficient per frames: -0.002
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 24.876%
+   error per clips: mean=0.247, std=0.145
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 21.891%
+   error per clips: mean=0.243, std=0.209
+---------
+
+2023-12-11 20:59:33,724:CRITICAL:EmoV2_step40: validate. Iteration: 3000: Accuracy (valence, arousal): 24.876% 21.891%
+2023-12-11 20:59:33,725:CRITICAL:EmoV2_step40: validate. Iteration: 3000: Loss: 0.109661
+2023-12-11 21:00:00,099:CRITICAL:EmoV2_step40: iteration: 3100: Loss: 0.164442, lr: 0.000892
+2023-12-11 21:00:26,506:CRITICAL:EmoV2_step40: iteration: 3200: Loss: 0.090303, lr: 0.000891
+2023-12-11 21:00:52,935:CRITICAL:EmoV2_step40: iteration: 3300: Loss: 0.085669, lr: 0.000890
+2023-12-11 21:01:19,368:CRITICAL:EmoV2_step40: iteration: 3400: Loss: 0.122039, lr: 0.000890
+2023-12-11 21:01:45,804:CRITICAL:EmoV2_step40: iteration: 3500: Loss: 0.152583, lr: 0.000889
+2023-12-11 21:02:12,223:CRITICAL:EmoV2_step40: iteration: 3600: Loss: 0.144893, lr: 0.000889
+2023-12-11 21:02:38,636:CRITICAL:EmoV2_step40: iteration: 3700: Loss: 0.138243, lr: 0.000888
+2023-12-11 21:03:05,059:CRITICAL:EmoV2_step40: iteration: 3800: Loss: 0.130845, lr: 0.000887
+2023-12-11 21:03:31,475:CRITICAL:EmoV2_step40: iteration: 3900: Loss: 0.102489, lr: 0.000887
+2023-12-11 21:03:57,901:CRITICAL:EmoV2_step40: iteration: 4000: Loss: 0.094868, lr: 0.000886
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+Valence:
+   accuracy per frames: 7.228%
+   error per frames: frames=0.400, std=0.200
+   concordance correlation coefficient per frames: 0.000
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 22.767%
+   error per frames: frames=0.287, std=0.206
+   concordance correlation coefficient per frames: 0.000
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 5.970%
+   error per clips: mean=0.397, std=0.202
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 24.378%
+   error per clips: mean=0.280, std=0.213
+---------
+
+2023-12-11 21:06:05,202:CRITICAL:EmoV2_step40: validate. Iteration: 4000: Accuracy (valence, arousal): 5.970% 24.378%
+2023-12-11 21:06:05,203:CRITICAL:EmoV2_step40: validate. Iteration: 4000: Loss: 0.209588
+2023-12-11 21:06:31,594:CRITICAL:EmoV2_step40: iteration: 4100: Loss: 0.112628, lr: 0.000885
+2023-12-11 21:06:57,999:CRITICAL:EmoV2_step40: iteration: 4200: Loss: 0.160168, lr: 0.000885
+2023-12-11 21:07:24,410:CRITICAL:EmoV2_step40: iteration: 4300: Loss: 0.112010, lr: 0.000884
+2023-12-11 21:07:50,813:CRITICAL:EmoV2_step40: iteration: 4400: Loss: 0.123922, lr: 0.000883
+2023-12-11 21:08:17,218:CRITICAL:EmoV2_step40: iteration: 4500: Loss: 0.136524, lr: 0.000882
+2023-12-11 21:08:43,615:CRITICAL:EmoV2_step40: iteration: 4600: Loss: 0.113193, lr: 0.000882
+2023-12-11 21:09:10,019:CRITICAL:EmoV2_step40: iteration: 4700: Loss: 0.106784, lr: 0.000881
+2023-12-11 21:09:36,418:CRITICAL:EmoV2_step40: iteration: 4800: Loss: 0.112159, lr: 0.000880
+2023-12-11 21:10:03,385:CRITICAL:EmoV2_step40: iteration: 4900: Loss: 0.112126, lr: 0.000879
+2023-12-11 21:10:29,812:CRITICAL:EmoV2_step40: iteration: 5000: Loss: 0.111342, lr: 0.000878
+targets = (38020, 2), predict = (38020, 2)
+target = torch.Size([38020]), pred = torch.Size([38020])
+Valence:
+   accuracy per frames: 20.597%
+   error per frames: frames=0.287, std=0.164
+   concordance correlation coefficient per frames: 0.000
+target = torch.Size([38020]), pred = torch.Size([38020])
+Arousal:
+   accuracy per frames: 23.714%
+   error per frames: frames=0.240, std=0.174
+   concordance correlation coefficient per frames: -0.003
+---------
+
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Valence:
+   accuracy per clips: 19.403%
+   error per clips: mean=0.284, std=0.166
+targetCLIPS = torch.Size([201]), predCLIPS = torch.Size([201])
+Arousal:
+   accuracy per clips: 25.373%
+   error per clips: mean=0.246, std=0.203
+---------
+
+2023-12-11 21:12:37,676:CRITICAL:EmoV2_step40: validate. Iteration: 5000: Accuracy (valence, arousal): 19.403% 25.373%
+2023-12-11 21:12:37,676:CRITICAL:EmoV2_step40: validate. Iteration: 5000: Loss: 0.126735

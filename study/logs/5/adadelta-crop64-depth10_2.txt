@@ -1,0 +1,56 @@
+softmax_size = 2
+disk_reader_process_num: 1
+disk_reader_process_num: 1
+C:\Users\artem\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\nn\modules\loss.py:536: UserWarning: Using a target size (torch.Size([4, 2])) that is different to the input size (torch.Size([4, 256, 1, 1, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2023-12-12 11:55:32,329:CRITICAL:EmoV2_step40: iteration: 0: Loss: 0.083979, lr: 0.000900
+2023-12-12 11:55:46,474:CRITICAL:EmoV2_step40: iteration: 100: Loss: 0.135395, lr: 0.000900
+2023-12-12 11:56:02,771:CRITICAL:EmoV2_step40: iteration: 200: Loss: 0.358269, lr: 0.000900
+2023-12-12 11:56:15,432:CRITICAL:EmoV2_step40: iteration: 300: Loss: 0.231461, lr: 0.000900
+2023-12-12 11:56:28,072:CRITICAL:EmoV2_step40: iteration: 400: Loss: 0.128473, lr: 0.000900
+2023-12-12 11:56:40,593:CRITICAL:EmoV2_step40: iteration: 500: Loss: 0.121288, lr: 0.000900
+2023-12-12 11:56:53,274:CRITICAL:EmoV2_step40: iteration: 600: Loss: 0.172383, lr: 0.000900
+2023-12-12 11:57:05,689:CRITICAL:EmoV2_step40: iteration: 700: Loss: 0.241687, lr: 0.000900
+2023-12-12 11:57:18,085:CRITICAL:EmoV2_step40: iteration: 800: Loss: 0.101216, lr: 0.000899
+2023-12-12 11:57:30,667:CRITICAL:EmoV2_step40: iteration: 900: Loss: 0.242505, lr: 0.000899
+2023-12-12 11:57:43,215:CRITICAL:EmoV2_step40: iteration: 1000: Loss: 0.183244, lr: 0.000899
+2023-12-12 11:57:55,694:CRITICAL:EmoV2_step40: iteration: 1100: Loss: 0.055689, lr: 0.000899
+2023-12-12 11:58:08,365:CRITICAL:EmoV2_step40: iteration: 1200: Loss: 0.178868, lr: 0.000899
+2023-12-12 11:58:21,269:CRITICAL:EmoV2_step40: iteration: 1300: Loss: 0.163332, lr: 0.000899
+2023-12-12 11:58:33,703:CRITICAL:EmoV2_step40: iteration: 1400: Loss: 0.142050, lr: 0.000898
+2023-12-12 11:58:46,197:CRITICAL:EmoV2_step40: iteration: 1500: Loss: 0.149372, lr: 0.000898
+2023-12-12 11:58:58,501:CRITICAL:EmoV2_step40: iteration: 1600: Loss: 0.154593, lr: 0.000898
+2023-12-12 11:59:11,002:CRITICAL:EmoV2_step40: iteration: 1700: Loss: 0.145171, lr: 0.000897
+2023-12-12 11:59:23,298:CRITICAL:EmoV2_step40: iteration: 1800: Loss: 0.125537, lr: 0.000897
+2023-12-12 11:59:35,552:CRITICAL:EmoV2_step40: iteration: 1900: Loss: 0.189395, lr: 0.000897
+2023-12-12 11:59:47,969:CRITICAL:EmoV2_step40: iteration: 2000: Loss: 0.098276, lr: 0.000896
+2023-12-12 12:00:00,290:CRITICAL:EmoV2_step40: iteration: 2100: Loss: 0.220955, lr: 0.000896
+2023-12-12 12:00:12,621:CRITICAL:EmoV2_step40: iteration: 2200: Loss: 0.310374, lr: 0.000896
+2023-12-12 12:00:24,989:CRITICAL:EmoV2_step40: iteration: 2300: Loss: 0.206229, lr: 0.000895
+2023-12-12 12:00:37,908:CRITICAL:EmoV2_step40: iteration: 2400: Loss: 0.053865, lr: 0.000895
+2023-12-12 12:00:50,391:CRITICAL:EmoV2_step40: iteration: 2500: Loss: 0.232054, lr: 0.000895
+2023-12-12 12:01:02,739:CRITICAL:EmoV2_step40: iteration: 2600: Loss: 0.251754, lr: 0.000894
+2023-12-12 12:01:14,965:CRITICAL:EmoV2_step40: iteration: 2700: Loss: 0.154705, lr: 0.000894
+2023-12-12 12:01:27,271:CRITICAL:EmoV2_step40: iteration: 2800: Loss: 0.109843, lr: 0.000893
+2023-12-12 12:01:39,451:CRITICAL:EmoV2_step40: iteration: 2900: Loss: 0.228038, lr: 0.000893
+2023-12-12 12:01:51,894:CRITICAL:EmoV2_step40: iteration: 3000: Loss: 0.106390, lr: 0.000892
+2023-12-12 12:02:04,223:CRITICAL:EmoV2_step40: iteration: 3100: Loss: 0.158636, lr: 0.000892
+2023-12-12 12:02:16,564:CRITICAL:EmoV2_step40: iteration: 3200: Loss: 0.177210, lr: 0.000891
+2023-12-12 12:02:28,832:CRITICAL:EmoV2_step40: iteration: 3300: Loss: 0.052676, lr: 0.000890
+2023-12-12 12:02:41,139:CRITICAL:EmoV2_step40: iteration: 3400: Loss: 0.164045, lr: 0.000890
+2023-12-12 12:02:53,454:CRITICAL:EmoV2_step40: iteration: 3500: Loss: 0.149826, lr: 0.000889
+2023-12-12 12:03:06,267:CRITICAL:EmoV2_step40: iteration: 3600: Loss: 0.131733, lr: 0.000889
+2023-12-12 12:03:18,413:CRITICAL:EmoV2_step40: iteration: 3700: Loss: 0.194764, lr: 0.000888
+2023-12-12 12:03:30,585:CRITICAL:EmoV2_step40: iteration: 3800: Loss: 0.134711, lr: 0.000887
+2023-12-12 12:03:42,756:CRITICAL:EmoV2_step40: iteration: 3900: Loss: 0.221884, lr: 0.000887
+2023-12-12 12:03:54,962:CRITICAL:EmoV2_step40: iteration: 4000: Loss: 0.161456, lr: 0.000886
+2023-12-12 12:04:07,258:CRITICAL:EmoV2_step40: iteration: 4100: Loss: 0.086154, lr: 0.000885
+2023-12-12 12:04:19,511:CRITICAL:EmoV2_step40: iteration: 4200: Loss: 0.114251, lr: 0.000885
+2023-12-12 12:04:31,792:CRITICAL:EmoV2_step40: iteration: 4300: Loss: 0.118528, lr: 0.000884
+2023-12-12 12:04:43,990:CRITICAL:EmoV2_step40: iteration: 4400: Loss: 0.136735, lr: 0.000883
+2023-12-12 12:04:56,325:CRITICAL:EmoV2_step40: iteration: 4500: Loss: 0.177941, lr: 0.000882
+2023-12-12 12:05:08,626:CRITICAL:EmoV2_step40: iteration: 4600: Loss: 0.225461, lr: 0.000882
+2023-12-12 12:05:21,451:CRITICAL:EmoV2_step40: iteration: 4700: Loss: 0.196486, lr: 0.000881
+2023-12-12 12:05:33,691:CRITICAL:EmoV2_step40: iteration: 4800: Loss: 0.228880, lr: 0.000880
+2023-12-12 12:05:45,909:CRITICAL:EmoV2_step40: iteration: 4900: Loss: 0.239664, lr: 0.000879
+2023-12-12 12:05:58,317:CRITICAL:EmoV2_step40: iteration: 5000: Loss: 0.134171, lr: 0.000878
